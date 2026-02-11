@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 public class SumOfAll {
     public static void main(String[] args) {
