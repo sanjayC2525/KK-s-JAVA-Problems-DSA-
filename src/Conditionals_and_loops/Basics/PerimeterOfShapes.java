@@ -1,4 +1,4 @@
-package Loops;
+package Conditionals_and_loops.Basics;
 import java.util.Scanner;
 public class PerimeterOfShapes {
     public static void main(String[] args) {

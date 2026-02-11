@@ -1,4 +1,4 @@
-package Basics;
+package Conditionals_and_loops.Basics;
 
 import java.util.Scanner;
 
