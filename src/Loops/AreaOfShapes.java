@@ -2,8 +2,8 @@ package Loops;
 import java.util.Scanner;
 public class AreaOfShapes {
     public static void main(String[] args) {
-            Scanner input = new Scanner(System.in);
-            // 1. Radius of a Circle
+        Scanner input = new Scanner(System.in);
+           /* // 1. Radius of a Circle
             System.out.println("Enter the radius of Circle:");
             double r = input.nextDouble();
             if (r <= 0) {
@@ -76,8 +76,25 @@ public class AreaOfShapes {
             } else {
                 double res = (Math.sqrt(3) / 4) * (side * side);
                 System.out.println(res);
-            }
-            System.out.println("Enter a key to Continue or Exit");
-            String key = input.nextLine();
+            } */
+            // 8. Curved Surface Area of Cylinder
+        System.out.println("Enter the Radius & height for Curved Surface Area of Cylinder:");
+        double radius = input.nextDouble();
+        double height = input.nextDouble();
+        if(radius <= 0 || height <= 0){
+            System.out.println("Invalid Input");
+        }else{
+            double res = 2 * Math.PI *radius*height;
+            System.out.println(res);
+        }
+            // 9. Total Surface Area of Cube
+        System.out.println("Enter the side for Total Surface Area of Cube");
+        double side1 = input.nextDouble();
+        if(side1 <= 0){
+            System.out.println("Invalid Input");
+        }else{
+            double res = 6*(side1*side1);
+            System.out.println(res);
+        }
     }
 }
