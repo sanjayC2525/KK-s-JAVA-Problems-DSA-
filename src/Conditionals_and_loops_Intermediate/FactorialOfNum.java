@@ -19,5 +19,6 @@ public class FactorialOfNum {
             }
             System.out.println(fact);
         }
+        in.close();
     }
 }
