@@ -13,7 +13,7 @@ public class ProductAndSum {
             prod *= last;
             n = n/10;
         }
-        int result = sum - prod;
+        int result = prod - sum;
         System.out.println(result);
     }
 }
