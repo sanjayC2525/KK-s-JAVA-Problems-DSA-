@@ -1,6 +1,6 @@
 package Conditionals_and_loops.Basics;
 import java.util.Scanner;
-public class Factorial {
+public class Factors {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the num to find the factorial:");
